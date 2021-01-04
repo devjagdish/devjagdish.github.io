@@ -402,7 +402,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_universal_box_wrap .overlay_image.hero{background-image: url(../img/hero/2.jpg);}
+.arlo_tm_universal_box_wrap .overlay_image.hero{background-image: url(../img/logo/bg.png);}
 .arlo_tm_universal_box_wrap .overlay_color.hero{background-color: rgba(7,23,55,.8);}
 .arlo_tm_universal_box_wrap .content.hero{height: 100vh;}
 .arlo_tm_hero_header_wrap .inner_content{
@@ -994,12 +994,15 @@ img.svg{
 .arlo_tm_services_wrap .list_wrap ul li{
 	margin: 0px 0px 30px 0px;
 	float: left;
-	width: 33.3333%;
+	width: 100%;
 	padding-left: 30px;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.arlo_tm_services_wrap h5 {
+    margin-bottom: 10px;
 }
 .arlo_tm_services_wrap .list_wrap ul li .inner{
 	width: 100%;
@@ -1008,7 +1011,7 @@ img.svg{
 	float: left;
 	position: relative;
 	box-shadow: 0 0 20px rgba(0,0,0,.1);
-	padding: 40px 40px 33px 40px;
+	padding: 0 40px 33px 0;
 	top: 0px;
 	
 	-webkit-transition: all .3s ease;
@@ -1024,8 +1027,8 @@ img.svg{
 .arlo_tm_services_wrap .list_wrap ul li .inner:hover{top: -5px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon{margin-bottom: 21px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon .svg{
-	width: 40px;
-	height: 40px;
+	width: 120px;
+	height: auto;
 	color: #5e9e9f;
 }
 .arlo_tm_services_wrap .list_wrap ul li .title_service{margin-bottom: 17px;}
@@ -1990,7 +1993,7 @@ img.svg{
 .arlo_tm_universal_box_wrap.particle{
 	height: 100vh;
 	position: relative;
-	background-image: url(../img/hero/2.jpg);
+	background-image: url(../img/logo/bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -2014,7 +2017,7 @@ img.svg{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-image: url(../img/hero/2.jpg);
+	background-image: url(../img/logo/bg.png);
 	position: relative;
 }
 .arlo_tm_ripple_wrap .overlay{
@@ -2086,7 +2089,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_intro_universal_bg_wrap .bg_wrap .overlay_image.top{background-image: url(../img/hero/2.jpg);}
+.arlo_tm_intro_universal_bg_wrap .bg_wrap .overlay_image.top{background-image: url(../img/logo/bg.png);}
 .arlo_tm_intro_universal_bg_wrap .bg_wrap .overlay_color.top{background-color: rgba(10,4,37,.85);}
 .arlo_tm_intro_universal_bg_wrap .content.top{height: 75vh;}
 .arlo_tm_intro_universal_bg_wrap .content.top .main_titles_wrap{
@@ -2597,3 +2600,7 @@ img.svg{
 	.arlo_tm_portfolio_list > li{width: 100%;padding-left: 0px;}
 	.arlo_tm_counter_wrap{padding: 94px 0px 48px 0px;}
 }	
+
+span.experience, span.number {
+    display: none;
+}
